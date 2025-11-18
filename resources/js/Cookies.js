@@ -63,7 +63,7 @@ class LaravelCookieConsent {
         let tmp = document.createElement('div');
         tmp.innerHTML = data.notice;
 
-        let cookies = tmp.querySelector('#cookies-policy')
+        let cookies = tmp.querySelector('#c-policy')
         document.body.appendChild(cookies);
 
         let tags = tmp.querySelectorAll('[data-cookie-consent]');

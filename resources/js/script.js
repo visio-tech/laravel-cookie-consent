@@ -1,4 +1,4 @@
-var cookies = document.querySelector('#cookies-policy');
+var cookies = document.querySelector('#c-policy');
 var reset = document.querySelector('.cookiereset');
 
 if(reset) {
@@ -55,7 +55,7 @@ function acceptEssentialsCookies(event) {
 
 function resetCookies(event) {
     event.preventDefault();
-    if(document.querySelector('#cookies-policy')) return;
+    if(document.querySelector('#c-policy')) return;
     window.LaravelCookieConsent.reset()
 }
 
